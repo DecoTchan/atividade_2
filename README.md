@@ -1,4 +1,4 @@
-# 🔴🟢🔵 Atividade 2 - Temporizador de Um Disparo (One Shot)
+#  Atividade 2 - Temporizador de Um Disparo (One Shot)
 
 ##  Descrição
 Este projeto implementa um sistema onde **três LEDs (Azul, Vermelho e Verde) são ativados ao pressionar um botão**. Eles são desligados **progressivamente a cada 3 segundos**, utilizando um **temporizador de um disparo (`add_alarm_in_ms()`)**.
