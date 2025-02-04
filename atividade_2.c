@@ -49,6 +49,7 @@ void gpio_callback(uint gpio, uint32_t events) {
 
 int main() {
     stdio_init_all();
+    sleep_ms(5000); // Delay inicial para garantir inicialização correta
     gpio_init(LED_B); gpio_set_dir(LED_B, GPIO_OUT);
     gpio_init(LED_R); gpio_set_dir(LED_R, GPIO_OUT);
     gpio_init(LED_G); gpio_set_dir(LED_G, GPIO_OUT);
